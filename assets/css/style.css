@@ -26,17 +26,28 @@ body {
 	 
 }
 
-a.navbar-brand {
-	color: white;
-	margin-bottom: 20px; 
+/* this code is for the image to never scale up
+to be larger than the original size */
 
+img {
+	max-width: 100%;
+	height: auto;
 }
 
-.navbar-header {
-	padding: 10px;
-	color: white;
+.navbar-left {
 	background-color: #4aaaa5;
+	height: 100px;
+	padding:10px 10px 10px 10px;
+	line-height: 0;
+
+
 }
+a.navbar-name {
+	color: white;
+	text-decoration: none;
+
+}
+
  
 li {
 	padding: 20px 10px 20px 10px;
@@ -45,18 +56,24 @@ li {
 
 .page-header {
 	color:#4aaaa5;
-
-
 }
 
-.panel-title {
-	color:#4aaaa5;
-	
+.thumbnail {
+	position: relative;
+}
 
+.websiteName {
+	top: 75%;
+	color: white;
+	position: absolute;
+	background-color: #4aaaa5;
+	width: 97%; 
+	margin-left: 1px;
 }
 
 .socialIcons { 
 	padding-left: 15px;
+	margin-bottom: 20px;
 
 }
  
@@ -75,3 +92,4 @@ li {
 }
 
 /* added this code for the sticky footer end */
+
